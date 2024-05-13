@@ -4,7 +4,7 @@ const app = express();
 
 // Define a route that returns "Hello, the server is running!" on any request
 app.get('*', (req, res) => {
-  res.send('Hello, the server is running!, Hello World, This is testing');
+  res.send('Hello, the server is running!, Hello World');
 });
 
 // Start the server, listening on port 3000 by default
